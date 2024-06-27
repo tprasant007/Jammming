@@ -1,0 +1,20 @@
+.tracksList {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+}
+
+.tracksList h2 {
+  font-size: 1.3rem;
+}
+
+.tracksList p {
+  font-size: 1rem;
+  color: #f4f4f4;
+}
+
+.addBtn {
+  width: 10%;
+  background: transparent;
+}

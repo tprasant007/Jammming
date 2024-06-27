@@ -1,0 +1,32 @@
+.searchBarContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+input{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 10px;
+    min-width: 15em;
+    margin-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+}
+input:focus{
+    outline: none;
+}
+button{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    width: 10em;
+    padding: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-image: linear-gradient(rgba(224, 232, 226, 0.659), rgba(196, 201, 198, 0.7)), url('/src/Images/backgorund.jpg');
+    background-size: cover;
+    background-position: center;
+    resize: both;
+    height: 100%;
+}
+
+header{
+    background-color: rgb(5, 46, 15);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+header span{
+    color:rgb(22, 180, 61);
+}
+
+.containers{
+    display: flex;
+    width: 100%;
+    padding-bottom: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
